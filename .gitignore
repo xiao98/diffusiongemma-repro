@@ -1,0 +1,9 @@
+.venv/
+third_party/
+__pycache__/
+.pytest_cache/
+*.pt
+*.jsonl
+*.eval.json
+*.zip
+!results/**

@@ -1,0 +1,21 @@
+{
+  "ckpt": "scratch.pt",
+  "canvas": 256,
+  "avg_denoising_steps_per_canvas": 48.0,
+  "tokens_per_forward": 5.33,
+  "real": {
+    "judge_ppl": 5.68,
+    "distinct2": 0.756
+  },
+  "diffusion": {
+    "judge_ppl": 33.15,
+    "distinct2": 0.552,
+    "tokens_per_sec": 714.0
+  },
+  "ar": {
+    "judge_ppl": 6.6,
+    "distinct2": 0.497,
+    "tokens_per_sec": 205.2
+  },
+  "speedup_vs_ar": 3.48
+}

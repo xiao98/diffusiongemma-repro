@@ -1,0 +1,25 @@
+{
+  "ckpt": "warm.pt",
+  "canvas": 256,
+  "avg_denoising_steps_per_canvas": 96.0,
+  "tokens_per_forward": 2.67,
+  "entropy_bound": 0.1,
+  "max_steps": 96,
+  "ar_temp": 1.0,
+  "committed_before_final_step": 0.368,
+  "real": {
+    "judge_ppl": 5.68,
+    "distinct2": 0.756
+  },
+  "diffusion": {
+    "judge_ppl": 51.3,
+    "distinct2": 0.64,
+    "tokens_per_sec": 344.9
+  },
+  "ar": {
+    "judge_ppl": 7.15,
+    "distinct2": 0.692,
+    "tokens_per_sec": 206.9
+  },
+  "speedup_vs_ar": 1.67
+}
